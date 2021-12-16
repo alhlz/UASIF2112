@@ -5,6 +5,8 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
 # read and load json file 
 readjson = open("kode_negara_lengkap.json")
 dictjson = json.load(readjson)
