@@ -231,7 +231,7 @@ def infoNilProd(choice, frommenu):
 def aboutApp():
     st.caption("Aplikasi ini memberikan informasi mengenai data produksi minyak mentah dari berbagai negara di seluruh dunia. Melalui aplikasi ini, Anda dapat melihat dan menganalisis secara langsung data-data produksi minyak mentah tersebut, termasuk di antara tren produksi tahun ke tahun di negara pilihan Anda.")
 
-# cuma buat mainProgram aja ini nanti disesuain mau bikinnya gimana
+# laman utama
 def mainProgram():
     st.write("Alya Nissa Haliza 12220074 | UAS IF2112 Pemrograman Komputer")
     imageitb = Image.open("header.png")
